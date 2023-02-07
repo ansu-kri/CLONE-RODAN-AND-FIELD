@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+  }
+  
+  /* this is the main div where the will play */
+  
+  #main_video_banner{
+    width: 95%;
+    border: 5px solid red;
+    height: 600px;
+    display: flex;
+    margin: auto;
+    
+  }
+  
+  
+  
+  /* this is the child 1 which is  responible for left content */
+  
+  /* #main_video_banner>div:nth-child(1){
+    border: 0px solid red;
+    width:30%    ;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background: #8a5080;
+    
+  } */
+  .heading_in_video_banner{
+    margin-top: 150px;
+    font-size: 28px;
+    width: 300px;
+    margin-left: 30px;
+    color: white;
+    line-height: 35px;
+    
+  }
+  .p_in_video_banner{
+    margin-top: 35px;
+    text-align: justify;
+    width: 300px;
+    margin-left: 30px;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    line-height: 20px;
+  
+  }
+  .btn_in_video_banner{
+    margin-top: 50px;
+    padding: 10px;
+    width: 280px;
+    margin-left: 50px;
+    color: black;
+    font-weight:bold;
+    cursor: pointer;
+    
+  }
+  
+  
+  
+  
+  
+  /* this is the child div 2 which is responible for right content (video)  */
+  #main_video_banner>div:nth-child(2){
+    border: 2px solid red;
+    width: 100%;
+    height: 100%;
+    
+  }
+  .main_video_banner_2nd>video{
+    width: 100%;
+    height: 100%;
+  }
+  .main_video_banner_2nd{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .main_video_banner_2nd{
+  
+    border: 7px solid red;
+    width: 99%;
+    height: 80%;
+    
+  }
